@@ -9,7 +9,7 @@ pipeline {
         stage('Git') {
             steps {
                 echo 'Pull code from GitHub'
-                git url: 'https://github.com/AJABHIMANYU/Mini_Project.git', branch: 'main'
+                git url: 'https://github.com/AJABHIMANYU/car-eureka.git', branch: 'master'
             }
         }
         stage('Build') {
